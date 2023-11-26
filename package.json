@@ -1,7 +1,7 @@
 {
-  "name": "telegraf-sqlite-template",
+  "name": "private-rss-bot",
   "version": "0.1.1",
-  "description": "Template for creating future telegram bot apps",
+  "description": "RSS bot but with filter",
   "main": "dist/index.js",
   "scripts": {
     "start": "node dist/index.js",
@@ -14,13 +14,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/francisyzy/telegraf-sqlite-template.git"
+    "url": "git+https://github.com/francisyzy/private-rss-bot.git"
   },
   "author": "francisyzy",
   "bugs": {
-    "url": "https://github.com/francisyzy/telegraf-sqlite-template/issues"
+    "url": "https://github.com/francisyzy/private-rss-bot/issues"
   },
-  "homepage": "https://github.com/francisyzy/telegraf-sqlite-template#readme",
+  "homepage": "https://github.com/francisyzy/private-rss-bot#readme",
   "engines": {
     "node": "18.x"
   },
