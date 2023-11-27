@@ -10,10 +10,14 @@ generator client {
   provider = "prisma-client-js"
 }
 
-model User {
-  telegramId   BigInt   @id
-  phone_number String?
-  name         String
-  createdAt    DateTime @default(now())
-  updatedAt    DateTime @default(now()) @updatedAt
+model Item {
+  creator        String
+  title          String
+  link           String
+  pubDate        String
+  content        String
+  contentSnippet String
+  guid           String  @id
+  isoDate        DateTime
+  toNotify       Boolean @default(true)
 }
