@@ -8,6 +8,8 @@ import { notifyItem } from "./utils/sendMessage";
 const cron = async () => {
   // https://crontab.guru/#3_0-23_*_*_*
   schedule("3 0-23 * * *", async () => {
+    console.log("running at");
+    console.log(new Date());
     await run();
   });
 };
